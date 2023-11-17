@@ -1,0 +1,12 @@
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/bin/Debug/net7.0/Entities.deps.json
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/bin/Debug/net7.0/Entities.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/bin/Debug/net7.0/Entities.pdb
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/obj/Debug/net7.0/Entities.csproj.AssemblyReference.cache
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/obj/Debug/net7.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/obj/Debug/net7.0/Entities.AssemblyInfoInputs.cache
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/obj/Debug/net7.0/Entities.AssemblyInfo.cs
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/obj/Debug/net7.0/Entities.csproj.CoreCompileInputs.cache
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/obj/Debug/net7.0/Entities.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/obj/Debug/net7.0/refint/Entities.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/obj/Debug/net7.0/Entities.pdb
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/obj/Debug/net7.0/ref/Entities.dll

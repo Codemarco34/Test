@@ -1,0 +1,15 @@
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/bin/Debug/net7.0/Repositories.deps.json
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/bin/Debug/net7.0/Repositories.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/bin/Debug/net7.0/Repositories.pdb
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/bin/Debug/net7.0/Entities.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/bin/Debug/net7.0/Entities.pdb
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/obj/Debug/net7.0/Repositories.csproj.AssemblyReference.cache
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/obj/Debug/net7.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/obj/Debug/net7.0/Repositories.AssemblyInfoInputs.cache
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/obj/Debug/net7.0/Repositories.AssemblyInfo.cs
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/obj/Debug/net7.0/Repositories.csproj.CoreCompileInputs.cache
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/obj/Debug/net7.0/Repositories.csproj.CopyComplete
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/obj/Debug/net7.0/Repositories.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/obj/Debug/net7.0/refint/Repositories.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/obj/Debug/net7.0/Repositories.pdb
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/obj/Debug/net7.0/ref/Repositories.dll

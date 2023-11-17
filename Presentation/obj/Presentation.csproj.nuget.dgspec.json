@@ -1,0 +1,251 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Presentation.csproj": {}
+  },
+  "projects": {
+    "/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/Entities.csproj",
+        "packagesPath": "/Users/halis/.nuget/packages/",
+        "outputPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/halis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/7.0.100/libexec/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Presentation.csproj",
+        "projectName": "Presentation",
+        "projectPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Presentation.csproj",
+        "packagesPath": "/Users/halis/.nuget/packages/",
+        "outputPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/halis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/Services.csproj": {
+                "projectPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/7.0.100/libexec/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/Repositories.csproj",
+        "projectName": "Repositories",
+        "projectPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/Repositories.csproj",
+        "packagesPath": "/Users/halis/.nuget/packages/",
+        "outputPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/halis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/Entities.csproj": {
+                "projectPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/7.0.100/libexec/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/Services.csproj",
+        "projectName": "Services",
+        "projectPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/Services.csproj",
+        "packagesPath": "/Users/halis/.nuget/packages/",
+        "outputPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/halis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/Entities.csproj": {
+                "projectPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/Entities.csproj"
+              },
+              "/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/Repositories.csproj": {
+                "projectPath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Repositories/Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/7.0.100/libexec/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
