@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YiBfMGFhjDU79iv2rEs3Hk7uyuOP/cVCeL2gQf6uicIJM01ePbYaTSAtIreVI5sZ7/uFC3vRn3Dp33NzNaaf4g==",
+  "dgSpecHash": "f7XgRvgRWwdZLzgH9FpJznTIaT/+F5iiol9qvHQhFXAi5zPEAwZ/nYK4irhFnaWOmLdsBEBldJjxqDcrIMpvMA==",
   "success": true,
   "projectFilePath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/Entities/Entities.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/halis/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.14/microsoft.entityframeworkcore.abstractions.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

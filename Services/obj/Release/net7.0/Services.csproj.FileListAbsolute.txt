@@ -1,0 +1,17 @@
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/bin/Release/net7.0/Services.deps.json
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/bin/Release/net7.0/Services.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/bin/Release/net7.0/Services.pdb
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/bin/Release/net7.0/Entities.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/bin/Release/net7.0/Repositories.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/bin/Release/net7.0/Entities.pdb
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/bin/Release/net7.0/Repositories.pdb
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/obj/Release/net7.0/Services.csproj.AssemblyReference.cache
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/obj/Release/net7.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/obj/Release/net7.0/Services.AssemblyInfoInputs.cache
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/obj/Release/net7.0/Services.AssemblyInfo.cs
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/obj/Release/net7.0/Services.csproj.CoreCompileInputs.cache
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/obj/Release/net7.0/Services.csproj.CopyComplete
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/obj/Release/net7.0/Services.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/obj/Release/net7.0/refint/Services.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/obj/Release/net7.0/Services.pdb
+/Users/halis/RiderProjects/AREMSUPPORTDESK/Services/obj/Release/net7.0/ref/Services.dll

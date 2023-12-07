@@ -1,4 +1,8 @@
+using AutoMapper;
+using Entities.DTOs;
+using Entities.Exceptions;
 using Entities.Models;
+using NLog;
 using Repositories.Contracts;
 using Services.Contracts;
 
@@ -7,10 +11,14 @@ namespace Services;
 public class MaintenanceManager : IMaintenanceService
 {
     private readonly IRepositoryManager _manager;
+    private readonly  ILoggerService _logger;
+    private readonly IMapper _mapper;
 
-    public MaintenanceManager(IRepositoryManager manager)
+    public MaintenanceManager(IRepositoryManager manager, ILoggerService logger, IMapper mapper)
     {
         _manager = manager;
+        _logger = logger;
+        _mapper = mapper;
     }
 
     public IEnumerable<Maintenance> GetAllMaintenance(bool trackChanges)
@@ -20,35 +28,29 @@ public class MaintenanceManager : IMaintenanceService
 
     public Maintenance GetMaintenanceById(int id, bool trackChanges)
     {
-        return _manager.Maintenance.GetOneMaintenanceById(id, trackChanges);
+        var maintenance =  _manager.Maintenance.GetOneMaintenanceById(id, trackChanges);
+        if (maintenance is null)
+            throw new MaintenanceNotFoundException(id);
+        return maintenance;
     }
 
     public Maintenance CreateOneMaintenance(Maintenance maintenance)
     {
-        if (maintenance is null)
-            throw new ArgumentNullException(nameof(maintenance));
+
+        string msg = "Maintenance Created";
+        _logger.LogInfo(msg);
         _manager.Maintenance.CreateOneMaintenance(maintenance);
         _manager.Save();
         return maintenance;
     }
 
-    public void UpdateOneMaintenance(int id, Maintenance maintenance, bool trackChanges)
+    public void UpdateOneMaintenance(int id, MaintenanceDto maintenanceDto, bool trackChanges)
     {
         var entity = _manager.Maintenance.GetOneMaintenanceById(id, trackChanges);
         if (entity is null)
-            throw new Exception($"Maintenance with id {id} could not found");
-        if (maintenance is null)
-            throw new ArgumentNullException(nameof(maintenance));
+            throw new MaintenanceNotFoundException(id);
 
-        entity.Customer = maintenance.Customer;
-        entity.Explanation = maintenance.Explanation;
-        entity.IsActive = maintenance.IsActive;
-        entity.DealType = maintenance.DealType;
-        entity.FinishDate = maintenance.FinishDate;
-        entity.ServicePeriod = maintenance.ServicePeriod;
-        entity.ServiceTime = maintenance.ServiceTime;
-        entity.StartDate = maintenance.StartDate;
-        entity.TaxNumber = maintenance.TaxNumber;
+        entity = _mapper.Map<Maintenance>(maintenanceDto);
         _manager.Maintenance.Update(entity);
         _manager.Save();
     }
@@ -59,7 +61,8 @@ public class MaintenanceManager : IMaintenanceService
     {
         var entity = _manager.Maintenance.GetOneMaintenanceById(id, trackChanges);
         if (entity is null)
-            throw new Exception($"Maintenance with id : {id} could not found");
+            throw new MaintenanceNotFoundException(id);
+            
         _manager.Maintenance.DeleteOneMaintenance(entity);
         _manager.Save();
 

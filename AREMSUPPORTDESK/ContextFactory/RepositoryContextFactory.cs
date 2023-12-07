@@ -18,5 +18,6 @@ public class RepositoryContextFactory :
             .UseSqlServer(configuration.GetConnectionString("sqlConnection"),
                 prj => prj.MigrationsAssembly("AREMSUPPORTDESK"));
         return new RepositoryContext(builder.Options);
+        
     }
 }

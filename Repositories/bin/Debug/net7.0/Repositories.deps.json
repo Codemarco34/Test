@@ -127,6 +127,9 @@
         }
       },
       "Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.14"
+        },
         "runtime": {
           "Entities.dll": {}
         }

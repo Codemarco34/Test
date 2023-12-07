@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectResources">
+    <resource url="http://www.nlog-project.org/schemas/NLog.xsd" location="$PROJECT_DIR$" />
+    <resource url="http://www.w3.org/2001/XMLSchema-instance" location="$APPLICATION_HOME_DIR$/lib/app.jar!/standardSchemas/XMLSchema-instance.xsd" />
+  </component>
+</project>

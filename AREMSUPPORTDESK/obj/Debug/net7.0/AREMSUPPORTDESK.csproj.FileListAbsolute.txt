@@ -263,3 +263,8 @@
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/Services.pdb
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/Presentation.dll
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/Presentation.pdb
+/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/NLog.config
+/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/NLog.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/NLog.Extensions.Logging.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/AutoMapper.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

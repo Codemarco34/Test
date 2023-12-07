@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Z5i5VEroCeHF3sU7+b2Di6x6es2jbi3jq/QXqtmzcnXVeb6OUEhmoHYDhRdnKBIxxvNbpAbAuW9o8xae8ltHKA==",
+  "dgSpecHash": "REld7u+ymIobE8NnnQ8cqOZ68h72ThzCb4cHmISxpzhBONPtwZUtH5j+CLZRQZRFd4w1O0QQcHNkqsnu/C6PDQ==",
   "success": true,
   "projectFilePath": "/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/AREMSUPPORTDESK.csproj",
   "expectedPackageFiles": [
+    "/Users/halis/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/halis/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/halis/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/halis/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/halis/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
@@ -144,6 +146,8 @@
     "/Users/halis/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/halis/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/halis/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "/Users/halis/.nuget/packages/nlog/5.2.5/nlog.5.2.5.nupkg.sha512",
+    "/Users/halis/.nuget/packages/nlog.extensions.logging/5.3.5/nlog.extensions.logging.5.3.5.nupkg.sha512",
     "/Users/halis/.nuget/packages/nuget.common/6.6.1/nuget.common.6.6.1.nupkg.sha512",
     "/Users/halis/.nuget/packages/nuget.configuration/6.6.1/nuget.configuration.6.6.1.nupkg.sha512",
     "/Users/halis/.nuget/packages/nuget.dependencyresolver.core/6.6.1/nuget.dependencyresolver.core.6.6.1.nupkg.sha512",

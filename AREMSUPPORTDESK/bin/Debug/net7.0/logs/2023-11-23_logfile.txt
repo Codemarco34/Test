@@ -1,0 +1,12 @@
+2023-11-23 16:43:05.5907 INFO Customer with id 10000 could not found
+2023-11-23 16:43:12.4478 INFO The book with id :10000 could not found
+2023-11-23 16:43:25.1672 INFO The book with id :10000 could not found
+2023-11-23 16:43:44.8783 INFO The book with id :10000 could not found
+2023-11-23 16:43:45.2259 INFO The book with id :10000 could not found
+2023-11-23 16:43:45.3568 INFO The book with id :10000 could not found
+2023-11-23 22:23:21.9493 INFO Customer Listed
+2023-11-23 22:29:31.4607 INFO Customer Listed
+2023-11-23 22:29:59.8463 INFO Customer Listed
+2023-11-23 22:30:06.6214 INFO Customer Listed
+2023-11-23 22:36:27.6498 INFO Customer with id 0 is created
+2023-11-23 22:37:57.0615 INFO Customer with id 0 is created

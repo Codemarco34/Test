@@ -1,3 +1,4 @@
+using Entities.DTOs;
 using Entities.Models;
 
 namespace Repositories.Contracts;

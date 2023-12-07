@@ -1,9 +1,12 @@
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/AREMSUPPORTDESK
+/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/NLog.config
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/appsettings.Development.json
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/appsettings.json
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/AREMSUPPORTDESK.dll
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/AREMSUPPORTDESK.runtimeconfig.json
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/AREMSUPPORTDESK.pdb
+/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/AutoMapper.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/Azure.Core.dll
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/Azure.Identity.dll
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/Humanizer.dll
@@ -53,6 +56,8 @@
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/Microsoft.Win32.SystemEvents.dll
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/Newtonsoft.Json.dll
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/Newtonsoft.Json.Bson.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/NLog.dll
+/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/NLog.Extensions.Logging.dll
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/NuGet.Common.dll
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/NuGet.Configuration.dll
 /Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/publish/NuGet.DependencyResolver.Core.dll
