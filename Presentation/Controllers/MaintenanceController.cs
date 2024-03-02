@@ -1,11 +1,17 @@
 using Entities.DTOs;
 using Entities.Exceptions;
 using Entities.Models;
+using Entities.RequestFeatures;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Primitives;
+using Newtonsoft.Json;
+using Presentation.ActionFilters;
 using Services.Contracts;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace Presentation.Controllers;
+[ServiceFilter(typeof(LogFilterAttribute))] 
 [ApiController]
 [Route("api/Maintenance")]
 public class MaintenanceController : ControllerBase
@@ -19,56 +25,72 @@ public class MaintenanceController : ControllerBase
 
 
         [HttpGet]
-        public IActionResult GelAllMaintenance()
+        public async Task<IActionResult> GelAllMaintenance([FromQuery]MaintenanceParameters maintenanceParameters)
         {
-                var Maintenances = _manager.MaintenanceService.GetAllMaintenance(false);
-                return Ok(Maintenances);
+                var pagedResult = await _manager
+                    .MaintenanceService
+                    .GetAllMaintenanceAsync(maintenanceParameters,false);
+                Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(pagedResult.metaData));
+                return Ok(pagedResult.maintenances);
         }
+        
 
         [HttpGet("{id:int}")]
-        public IActionResult GetOneMaintenance([FromRoute(Name = "id")] int id)
+        public async Task<IActionResult> GetOneMaintenance([FromRoute(Name = "id")] int id)
         {
-                var Maintenance = _manager.MaintenanceService.GetMaintenanceById(id, false);
-                return Ok(Maintenance);
+                var maintenance = await _manager.MaintenanceService.GetMaintenanceByIdAsync(id, false);
+                return Ok(maintenance);
             
 
         }
-
+        
+        
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         [HttpPost]
-        public IActionResult CreateOneMaintenance([FromBody]Maintenance maintenance)
-        {if (maintenance is null)
+        public  async Task<IActionResult> CreateOneMaintenance([FromBody]MaintenanceDtoForInsertion maintenanceDto)
+        {
+            if (maintenanceDto is null)
                     return NotFound();
-                _manager.MaintenanceService.CreateOneMaintenance(maintenance);
-                return StatusCode(201, maintenance);
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
+            var maintenance= await _manager.MaintenanceService.CreateOneMaintenanceAsync(maintenanceDto);
+            return StatusCode(201, maintenance);
         }
 
         [HttpPut("{id:int}")]
-        public IActionResult UpdateOneMaintenance([FromRoute(Name = "id")]int id, [FromBody] MaintenanceDto maintenanceDto)
+        public async Task<IActionResult> UpdateOneMaintenance([FromRoute(Name = "id")]int id, [FromBody] MaintenanceDto maintenanceDto)
         {
                 if (maintenanceDto is null)
                     return NotFound();
+                if (!ModelState.IsValid)
+                    return UnprocessableEntity(ModelState);
                 
-                _manager.MaintenanceService.UpdateOneMaintenance(id,maintenanceDto,true);
+                await _manager.MaintenanceService.UpdateOneMaintenanceAsync(id,maintenanceDto,false);
                 
                 return NoContent();
         }
         
         [HttpDelete("{id:int}")]
-        public IActionResult DeleteOneMaintenance([FromRoute(Name = "id")]int id)
+        public async Task<IActionResult> DeleteOneMaintenance([FromRoute(Name = "id")]int id)
         {
-                _manager.MaintenanceService.DeleteOneMaintenance(id,false);
+                await _manager.MaintenanceService.DeleteOneMaintenanceAsync(id,false);
                 return NoContent();
         }
 
         [HttpPatch("{id:int}")]
-        public IActionResult PartiallyUpdateOneMaintenance([FromRoute(Name = "id")]int id ,[FromBody] JsonPatchDocument<Maintenance> maintenancePatch)
+        public async Task<IActionResult> PartiallyUpdateOneMaintenance([FromRoute(Name = "id")]int id ,[FromBody] JsonPatchDocument<MaintenanceDto> maintenancePatch)
         {
-                var entity = _manager.MaintenanceService.GetMaintenanceById(id, false);
-                maintenancePatch.ApplyTo(entity);
-                _manager.MaintenanceService.UpdateOneMaintenance(id,
-                    new MaintenanceDto(
-                        entity.FinishDate, entity.StartDate, entity.ServicePeriod, entity.ServiceTime, entity.Explanation, entity.Id, entity.DealType, entity.Customer, entity.IsActive ,entity.TaxNumber
-                        ),true);
+            if (maintenancePatch is null)
+                return BadRequest();
+
+            var result = await _manager.MaintenanceService.GetOneMaintenanceForPatchAsync(id, false);
+            
+                maintenancePatch.ApplyTo(result.maintenanceDto,ModelState);
+                TryValidateModel(result.maintenanceDto);
+                if (!ModelState.IsValid)
+                    return UnprocessableEntity(ModelState);
+                
+                await _manager.MaintenanceService.SaveChangesForPatchAsync(result.maintenanceDto,result.maintenance);
                 return NoContent();
         }
 

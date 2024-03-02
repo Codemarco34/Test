@@ -355,3 +355,727 @@
 2023-12-03 23:19:44.3440 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
 2023-12-03 23:19:44.3684 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
 2023-12-03 23:19:44.3772 Info Configuration initialized.
+2023-12-11 14:24:39.3049 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-11 14:24:39.3650 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-12-11 14:24:39.4262 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2023-12-11 14:24:39.4513 Info Configuration initialized.
+2023-12-11 14:26:34.5259 Info AppDomain Shutting down. LogFactory closing...
+2023-12-11 14:26:34.5317 Info LogFactory has been closed.
+2023-12-11 18:41:40.9284 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-11 18:41:40.9649 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-12-11 18:41:40.9983 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2023-12-11 18:41:41.0126 Info Configuration initialized.
+2023-12-11 18:46:32.2605 Info AppDomain Shutting down. LogFactory closing...
+2023-12-11 18:46:32.2702 Info LogFactory has been closed.
+2023-12-24 14:12:48.4368 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-24 14:12:48.4801 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-12-24 14:12:48.5336 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2023-12-24 14:12:48.5653 Info Configuration initialized.
+2023-12-24 15:01:21.4547 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-24 15:01:21.4815 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-12-24 15:01:21.5116 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2023-12-24 15:01:21.5213 Info Configuration initialized.
+2023-12-24 16:13:32.8679 Info AppDomain Shutting down. LogFactory closing...
+2023-12-24 16:13:32.8766 Info LogFactory has been closed.
+2023-12-26 14:50:10.3616 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-26 14:50:10.3943 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-12-26 14:50:10.4299 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2023-12-26 14:50:10.4411 Info Configuration initialized.
+2023-12-26 14:50:31.2064 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-12-26 14:50:31.2408 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-12-26 14:50:31.2768 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/NLog.config
+2023-12-26 14:50:31.2845 Info Configuration initialized.
+2024-01-03 15:32:30.2502 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-03 15:32:30.2746 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-03 15:32:30.3085 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-03 15:32:30.3209 Info Configuration initialized.
+2024-01-03 15:39:04.9628 Info AppDomain Shutting down. LogFactory closing...
+2024-01-03 15:39:04.9717 Info LogFactory has been closed.
+2024-01-03 15:39:35.2105 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-03 15:39:35.2582 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-03 15:39:35.3028 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-03 15:39:35.3178 Info Configuration initialized.
+2024-01-03 15:54:06.1497 Info AppDomain Shutting down. LogFactory closing...
+2024-01-03 15:54:06.1602 Info LogFactory has been closed.
+2024-01-03 15:54:10.0129 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-03 15:54:10.0314 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-03 15:54:10.0609 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-03 15:54:10.0700 Info Configuration initialized.
+2024-01-03 16:00:05.9760 Info AppDomain Shutting down. LogFactory closing...
+2024-01-03 16:00:05.9853 Info LogFactory has been closed.
+2024-01-03 16:00:11.9563 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-03 16:00:11.9746 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-03 16:00:12.0068 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-03 16:00:12.0161 Info Configuration initialized.
+2024-01-03 16:02:07.8772 Info AppDomain Shutting down. LogFactory closing...
+2024-01-03 16:02:07.8844 Info LogFactory has been closed.
+2024-01-03 16:02:55.3197 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-03 16:02:55.3677 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-03 16:02:55.4562 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-03 16:02:55.4868 Info Configuration initialized.
+2024-01-03 16:46:02.5693 Info AppDomain Shutting down. LogFactory closing...
+2024-01-03 16:46:02.5782 Info LogFactory has been closed.
+2024-01-03 16:46:13.8984 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-03 16:46:13.9237 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-03 16:46:13.9586 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-03 16:46:13.9706 Info Configuration initialized.
+2024-01-03 16:49:36.4392 Info AppDomain Shutting down. LogFactory closing...
+2024-01-03 16:49:36.4474 Info LogFactory has been closed.
+2024-01-03 16:55:03.0869 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-03 16:55:03.1112 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-03 16:55:03.1474 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-03 16:55:03.1569 Info Configuration initialized.
+2024-01-03 16:57:03.5714 Info AppDomain Shutting down. LogFactory closing...
+2024-01-03 16:57:03.5815 Info LogFactory has been closed.
+2024-01-03 16:57:07.7163 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-03 16:57:07.7362 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-03 16:57:07.7660 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-03 16:57:07.7751 Info Configuration initialized.
+2024-01-03 16:57:53.7242 Info AppDomain Shutting down. LogFactory closing...
+2024-01-03 16:57:53.7319 Info LogFactory has been closed.
+2024-01-03 16:57:57.3928 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-03 16:57:57.4120 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-03 16:57:57.4448 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-03 16:57:57.4543 Info Configuration initialized.
+2024-01-03 17:01:02.3255 Info AppDomain Shutting down. LogFactory closing...
+2024-01-03 17:01:02.3316 Info LogFactory has been closed.
+2024-01-03 17:01:06.1212 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-03 17:01:06.1395 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-03 17:01:06.1700 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-03 17:01:06.1790 Info Configuration initialized.
+2024-01-04 08:41:59.9300 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 08:41:59.9553 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 08:41:59.9851 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 08:41:59.9999 Info Configuration initialized.
+2024-01-04 08:50:49.9241 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 08:50:49.9328 Info LogFactory has been closed.
+2024-01-04 08:50:56.0566 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 08:50:56.0751 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 08:50:56.1021 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 08:50:56.1117 Info Configuration initialized.
+2024-01-04 13:37:24.6526 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 13:37:24.6620 Info LogFactory has been closed.
+2024-01-04 13:39:20.5249 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 13:39:20.5418 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 13:39:20.5749 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 13:39:20.5806 Info Configuration initialized.
+2024-01-04 13:40:00.8531 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 13:40:00.8594 Info LogFactory has been closed.
+2024-01-04 13:40:01.9029 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 13:40:01.9155 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 13:40:01.9363 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 13:40:01.9422 Info Configuration initialized.
+2024-01-04 13:42:03.0538 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 13:42:03.0596 Info LogFactory has been closed.
+2024-01-04 13:42:06.7265 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 13:42:06.7383 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 13:42:06.7585 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 13:42:06.7655 Info Configuration initialized.
+2024-01-04 13:54:27.7807 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 13:54:27.7877 Info LogFactory has been closed.
+2024-01-04 13:54:33.0253 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 13:54:33.0391 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 13:54:33.0678 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 13:54:33.0757 Info Configuration initialized.
+2024-01-04 13:56:12.2541 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 13:56:12.2581 Info LogFactory has been closed.
+2024-01-04 13:56:14.5796 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 13:56:14.5906 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 13:56:14.6093 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 13:56:14.6147 Info Configuration initialized.
+2024-01-04 13:57:56.2592 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 13:57:56.2635 Info LogFactory has been closed.
+2024-01-04 13:58:32.2610 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 13:58:32.2733 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 13:58:32.2936 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 13:58:32.3006 Info Configuration initialized.
+2024-01-04 13:59:48.1892 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 13:59:48.1927 Info LogFactory has been closed.
+2024-01-04 13:59:51.0284 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 13:59:51.0412 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 13:59:51.0627 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 13:59:51.0686 Info Configuration initialized.
+2024-01-04 16:17:35.1115 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 16:17:35.1396 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 16:17:35.2105 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 16:17:35.2237 Info Configuration initialized.
+2024-01-04 16:30:57.6221 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 16:30:57.6268 Info LogFactory has been closed.
+2024-01-04 16:31:01.8695 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 16:31:01.8928 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 16:31:01.9299 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 16:31:01.9392 Info Configuration initialized.
+2024-01-04 16:35:26.6654 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 16:35:26.6699 Info LogFactory has been closed.
+2024-01-04 16:35:31.3813 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 16:35:31.4188 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 16:35:31.4876 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 16:35:31.5039 Info Configuration initialized.
+2024-01-04 16:41:20.0308 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 16:41:20.0371 Info LogFactory has been closed.
+2024-01-04 16:43:34.9261 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 16:43:34.9473 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 16:43:34.9840 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 16:43:34.9932 Info Configuration initialized.
+2024-01-04 17:33:12.3837 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 17:33:12.3930 Info LogFactory has been closed.
+2024-01-04 18:05:18.1621 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-04 18:05:18.1970 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-04 18:05:18.2496 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-04 18:05:18.2687 Info Configuration initialized.
+2024-01-04 18:22:10.8778 Info AppDomain Shutting down. LogFactory closing...
+2024-01-04 18:22:10.8842 Info LogFactory has been closed.
+2024-01-05 09:21:18.3435 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-05 09:21:18.3853 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-05 09:21:18.4367 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-05 09:21:18.4500 Info Configuration initialized.
+2024-01-05 09:24:57.4710 Info AppDomain Shutting down. LogFactory closing...
+2024-01-05 09:24:57.4770 Info LogFactory has been closed.
+2024-01-05 09:25:04.3395 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-05 09:25:04.3655 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-05 09:25:04.3976 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-05 09:25:04.4081 Info Configuration initialized.
+2024-01-05 09:26:16.9840 Info AppDomain Shutting down. LogFactory closing...
+2024-01-05 09:26:16.9893 Info LogFactory has been closed.
+2024-01-05 09:38:23.4650 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-05 09:38:23.4893 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-05 09:38:23.5167 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-05 09:38:23.5285 Info Configuration initialized.
+2024-01-05 09:40:41.0228 Info AppDomain Shutting down. LogFactory closing...
+2024-01-05 09:40:41.0280 Info LogFactory has been closed.
+2024-01-05 09:40:45.3912 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-05 09:40:45.4120 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-05 09:40:45.4429 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-05 09:40:45.4554 Info Configuration initialized.
+2024-01-05 09:41:32.9831 Info AppDomain Shutting down. LogFactory closing...
+2024-01-05 09:41:32.9887 Info LogFactory has been closed.
+2024-01-05 09:41:37.1637 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-05 09:41:37.1825 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-05 09:41:37.2107 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-05 09:41:37.2218 Info Configuration initialized.
+2024-01-05 09:43:17.0486 Info AppDomain Shutting down. LogFactory closing...
+2024-01-05 09:43:17.0539 Info LogFactory has been closed.
+2024-01-05 09:43:21.2661 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-05 09:43:21.2855 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-05 09:43:21.3138 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-05 09:43:21.3235 Info Configuration initialized.
+2024-01-05 10:44:13.0314 Info AppDomain Shutting down. LogFactory closing...
+2024-01-05 10:44:13.0384 Info LogFactory has been closed.
+2024-01-05 12:11:51.2843 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-05 12:11:51.3117 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-05 12:11:51.3543 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-05 12:11:51.3677 Info Configuration initialized.
+2024-01-05 12:12:31.9183 Info AppDomain Shutting down. LogFactory closing...
+2024-01-05 12:12:31.9233 Info LogFactory has been closed.
+2024-01-05 12:12:38.0796 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-05 12:12:38.0978 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-05 12:12:38.1245 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-05 12:12:38.1335 Info Configuration initialized.
+2024-01-05 12:16:56.3235 Info AppDomain Shutting down. LogFactory closing...
+2024-01-05 12:16:56.3299 Info LogFactory has been closed.
+2024-01-05 12:17:02.0414 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-05 12:17:02.0705 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-05 12:17:02.1044 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-05 12:17:02.1150 Info Configuration initialized.
+2024-01-05 12:17:13.4256 Info AppDomain Shutting down. LogFactory closing...
+2024-01-05 12:17:13.4291 Info LogFactory has been closed.
+2024-01-05 12:17:15.1617 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-05 12:17:15.1869 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-05 12:17:15.2210 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-05 12:17:15.2326 Info Configuration initialized.
+2024-01-05 15:58:20.9493 Info AppDomain Shutting down. LogFactory closing...
+2024-01-05 15:58:20.9549 Info LogFactory has been closed.
+2024-01-08 09:30:12.4423 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-08 09:30:12.4622 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-08 09:30:12.4984 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-08 09:30:12.5076 Info Configuration initialized.
+2024-01-08 09:53:57.8411 Info AppDomain Shutting down. LogFactory closing...
+2024-01-08 09:53:57.8467 Info LogFactory has been closed.
+2024-01-10 10:33:40.0378 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-10 10:33:40.0669 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-10 10:33:40.0962 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-10 10:33:40.1072 Info Configuration initialized.
+2024-01-10 11:00:11.1113 Info AppDomain Shutting down. LogFactory closing...
+2024-01-10 11:00:11.1157 Info LogFactory has been closed.
+2024-01-10 11:13:38.3601 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-10 11:13:38.3800 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-10 11:13:38.4116 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-10 11:13:38.4214 Info Configuration initialized.
+2024-01-12 11:06:34.4186 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-12 11:06:34.4537 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-12 11:06:34.5071 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-12 11:06:34.5239 Info Configuration initialized.
+2024-01-12 18:02:22.5440 Info AppDomain Shutting down. LogFactory closing...
+2024-01-12 18:02:22.5545 Info LogFactory has been closed.
+2024-01-12 20:09:00.8073 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-12 20:09:00.8649 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-12 20:09:00.9091 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-12 20:09:00.9362 Info Configuration initialized.
+2024-01-12 20:14:12.8084 Info AppDomain Shutting down. LogFactory closing...
+2024-01-12 20:14:12.8146 Info LogFactory has been closed.
+2024-01-12 20:14:16.2206 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-12 20:14:16.2506 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-12 20:14:16.2818 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-12 20:14:16.2916 Info Configuration initialized.
+2024-01-12 20:16:20.7589 Info AppDomain Shutting down. LogFactory closing...
+2024-01-12 20:16:20.7638 Info LogFactory has been closed.
+2024-01-12 20:16:23.6401 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-12 20:16:23.6699 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-12 20:16:23.6968 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-12 20:16:23.7064 Info Configuration initialized.
+2024-01-15 17:31:44.8927 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-15 17:31:44.9144 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-15 17:31:44.9434 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/NLog.config
+2024-01-15 17:31:44.9512 Info Configuration initialized.
+2024-01-15 17:32:58.8708 Info AppDomain Shutting down. LogFactory closing...
+2024-01-15 17:32:58.8903 Info LogFactory has been closed.
+2024-01-15 17:33:08.1934 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-15 17:33:08.2421 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-15 17:33:08.2710 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/bin/Debug/net7.0/NLog.config
+2024-01-15 17:33:08.2795 Info Configuration initialized.
+2024-01-17 10:14:57.1853 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-17 10:14:57.2128 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-17 10:14:57.2565 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-17 10:14:57.2694 Info Configuration initialized.
+2024-01-17 10:17:49.9809 Info AppDomain Shutting down. LogFactory closing...
+2024-01-17 10:17:49.9884 Info LogFactory has been closed.
+2024-01-17 10:18:53.6660 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-17 10:18:53.6952 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-17 10:18:53.7298 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-17 10:18:53.7422 Info Configuration initialized.
+2024-01-17 10:20:27.9003 Info AppDomain Shutting down. LogFactory closing...
+2024-01-17 10:20:27.9064 Info LogFactory has been closed.
+2024-01-17 10:20:31.7838 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-17 10:20:31.8020 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-17 10:20:31.8285 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-17 10:20:31.8379 Info Configuration initialized.
+2024-01-17 10:27:09.2794 Info AppDomain Shutting down. LogFactory closing...
+2024-01-17 10:27:09.2869 Info LogFactory has been closed.
+2024-01-17 10:27:11.6015 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-17 10:27:11.6207 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-17 10:27:11.6477 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-17 10:27:11.6567 Info Configuration initialized.
+2024-01-17 10:31:08.7093 Info AppDomain Shutting down. LogFactory closing...
+2024-01-17 10:31:08.7166 Info LogFactory has been closed.
+2024-01-17 10:53:15.1846 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-17 10:53:15.2054 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-17 10:53:15.2338 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-17 10:53:15.2429 Info Configuration initialized.
+2024-01-17 10:56:18.6004 Info AppDomain Shutting down. LogFactory closing...
+2024-01-17 10:56:18.6079 Info LogFactory has been closed.
+2024-01-31 14:20:59.8370 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-01-31 14:20:59.8693 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-01-31 14:20:59.9279 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-01-31 14:20:59.9463 Info Configuration initialized.
+2024-01-31 14:25:10.6000 Info AppDomain Shutting down. LogFactory closing...
+2024-01-31 14:25:10.6073 Info LogFactory has been closed.
+2024-02-08 11:09:32.7203 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-08 11:09:32.7675 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-08 11:09:32.8250 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-08 11:09:32.8409 Info Configuration initialized.
+2024-02-08 11:25:29.6779 Info AppDomain Shutting down. LogFactory closing...
+2024-02-08 11:25:29.6906 Info LogFactory has been closed.
+2024-02-11 00:09:59.0516 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-11 00:09:59.0815 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-11 00:09:59.1123 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-11 00:09:59.1232 Info Configuration initialized.
+2024-02-11 00:50:45.1927 Info AppDomain Shutting down. LogFactory closing...
+2024-02-11 00:50:45.2009 Info LogFactory has been closed.
+2024-02-11 00:50:47.7645 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-11 00:50:47.7826 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-11 00:50:47.8124 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-11 00:50:47.8220 Info Configuration initialized.
+2024-02-11 00:56:18.4711 Info AppDomain Shutting down. LogFactory closing...
+2024-02-11 00:56:18.4801 Info LogFactory has been closed.
+2024-02-11 00:59:08.6582 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-11 00:59:08.6821 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-11 00:59:08.7139 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-11 00:59:08.7234 Info Configuration initialized.
+2024-02-11 01:00:52.9354 Info AppDomain Shutting down. LogFactory closing...
+2024-02-11 01:00:52.9433 Info LogFactory has been closed.
+2024-02-11 01:02:01.9126 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-11 01:02:01.9333 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-11 01:02:01.9637 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-11 01:02:01.9727 Info Configuration initialized.
+2024-02-11 01:20:09.7973 Info AppDomain Shutting down. LogFactory closing...
+2024-02-11 01:20:09.8061 Info LogFactory has been closed.
+2024-02-11 01:20:13.6118 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-11 01:20:13.6336 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-11 01:20:13.6635 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-11 01:20:13.6728 Info Configuration initialized.
+2024-02-11 01:22:24.4306 Info AppDomain Shutting down. LogFactory closing...
+2024-02-11 01:22:24.4378 Info LogFactory has been closed.
+2024-02-12 16:09:31.2823 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-12 16:09:31.3080 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-12 16:09:31.3491 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-12 16:09:31.3650 Info Configuration initialized.
+2024-02-12 16:22:43.1157 Info AppDomain Shutting down. LogFactory closing...
+2024-02-12 16:22:43.1263 Info LogFactory has been closed.
+2024-02-13 18:11:05.7584 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-13 18:11:05.7916 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-13 18:11:05.8427 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-13 18:11:05.8601 Info Configuration initialized.
+2024-02-13 18:52:27.6014 Info AppDomain Shutting down. LogFactory closing...
+2024-02-13 18:52:27.6115 Info LogFactory has been closed.
+2024-02-15 13:48:30.8005 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 13:48:30.8180 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 13:48:30.8433 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 13:48:30.8506 Info Configuration initialized.
+2024-02-15 13:48:30.9670 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 13:48:30.9702 Info LogFactory has been closed.
+2024-02-15 13:55:21.3362 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 13:55:21.3543 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 13:55:21.3787 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 13:55:21.3860 Info Configuration initialized.
+2024-02-15 13:55:21.5007 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 13:55:21.5038 Info LogFactory has been closed.
+2024-02-15 14:16:58.4069 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 14:16:58.4237 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 14:16:58.4486 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 14:16:58.4558 Info Configuration initialized.
+2024-02-15 14:16:58.5684 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 14:16:58.5713 Info LogFactory has been closed.
+2024-02-15 14:25:31.1504 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 14:25:31.1675 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 14:25:31.1934 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 14:25:31.2005 Info Configuration initialized.
+2024-02-15 14:25:31.3142 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 14:25:31.3172 Info LogFactory has been closed.
+2024-02-15 14:28:32.8833 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 14:28:32.9007 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 14:28:32.9261 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 14:28:32.9332 Info Configuration initialized.
+2024-02-15 14:28:33.0401 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 14:28:33.0431 Info LogFactory has been closed.
+2024-02-15 14:35:31.1191 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 14:35:31.1369 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 14:35:31.1627 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 14:35:31.1698 Info Configuration initialized.
+2024-02-15 14:35:31.2722 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 14:35:31.2754 Info LogFactory has been closed.
+2024-02-15 14:36:13.2125 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 14:36:13.2299 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 14:36:13.2559 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 14:36:13.2630 Info Configuration initialized.
+2024-02-15 14:36:14.0682 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 14:36:14.0713 Info LogFactory has been closed.
+2024-02-15 14:38:12.0850 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 14:38:12.1018 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 14:38:12.1263 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 14:38:12.1334 Info Configuration initialized.
+2024-02-15 14:38:13.2088 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 14:38:13.2117 Info LogFactory has been closed.
+2024-02-15 14:38:38.0989 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 14:38:38.1148 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 14:38:38.1403 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 14:38:38.1475 Info Configuration initialized.
+2024-02-15 14:38:39.2854 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 14:38:39.2889 Info LogFactory has been closed.
+2024-02-15 14:38:50.2072 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 14:38:50.2237 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 14:38:50.2500 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 14:38:50.2571 Info Configuration initialized.
+2024-02-15 14:38:51.9853 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 14:38:51.9890 Info LogFactory has been closed.
+2024-02-15 14:40:12.9061 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 14:40:12.9271 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 14:40:12.9599 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 14:40:12.9700 Info Configuration initialized.
+2024-02-15 14:56:53.3733 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 14:56:53.3800 Info LogFactory has been closed.
+2024-02-15 15:16:03.7549 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 15:16:03.7688 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 15:16:03.7942 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 15:16:03.7998 Info Configuration initialized.
+2024-02-15 15:19:13.6228 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 15:19:13.6299 Info LogFactory has been closed.
+2024-02-15 15:24:22.4746 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 15:24:22.4877 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 15:24:22.5134 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 15:24:22.5191 Info Configuration initialized.
+2024-02-15 15:24:45.2478 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 15:24:45.2523 Info LogFactory has been closed.
+2024-02-15 15:25:17.0501 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 15:25:17.0642 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 15:25:17.0936 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 15:25:17.1007 Info Configuration initialized.
+2024-02-15 15:34:29.8407 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 15:34:29.8470 Info LogFactory has been closed.
+2024-02-15 15:39:13.8555 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 15:39:13.8685 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 15:39:13.8920 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 15:39:13.9021 Info Configuration initialized.
+2024-02-15 15:51:49.3252 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 15:51:49.3315 Info LogFactory has been closed.
+2024-02-15 15:51:52.7052 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 15:51:52.7168 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 15:51:52.7413 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 15:51:52.7470 Info Configuration initialized.
+2024-02-15 15:54:00.0851 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 15:54:00.0919 Info LogFactory has been closed.
+2024-02-15 15:54:04.1228 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 15:54:04.1432 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 15:54:04.1767 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 15:54:04.1842 Info Configuration initialized.
+2024-02-15 16:15:15.2170 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 16:15:15.2220 Info LogFactory has been closed.
+2024-02-15 16:15:17.7205 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 16:15:17.7325 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 16:15:17.7597 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 16:15:17.7655 Info Configuration initialized.
+2024-02-15 16:19:02.5911 Info AppDomain Shutting down. LogFactory closing...
+2024-02-15 16:19:02.5992 Info LogFactory has been closed.
+2024-02-15 16:23:37.6460 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-15 16:23:37.6579 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-15 16:23:37.6843 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-15 16:23:37.6907 Info Configuration initialized.
+2024-02-16 08:40:19.2419 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-16 08:40:19.2757 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-16 08:40:19.3170 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-16 08:40:19.3285 Info Configuration initialized.
+2024-02-16 08:46:23.1070 Info AppDomain Shutting down. LogFactory closing...
+2024-02-16 08:46:23.1150 Info LogFactory has been closed.
+2024-02-16 08:46:27.0510 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-16 08:46:27.0747 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-16 08:46:27.1101 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-16 08:46:27.1210 Info Configuration initialized.
+2024-02-16 08:47:16.5045 Info AppDomain Shutting down. LogFactory closing...
+2024-02-16 08:47:16.5128 Info LogFactory has been closed.
+2024-02-16 09:11:50.0338 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-16 09:11:50.0508 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-16 09:11:50.0780 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-16 09:11:50.0852 Info Configuration initialized.
+2024-02-16 09:11:50.8199 Info AppDomain Shutting down. LogFactory closing...
+2024-02-16 09:11:50.8230 Info LogFactory has been closed.
+2024-02-16 09:12:06.7807 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-16 09:12:06.7967 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-16 09:12:06.8233 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-16 09:12:06.8305 Info Configuration initialized.
+2024-02-16 09:12:08.8643 Info AppDomain Shutting down. LogFactory closing...
+2024-02-16 09:12:08.8679 Info LogFactory has been closed.
+2024-02-16 09:13:29.6799 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-16 09:13:29.7000 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-16 09:13:29.7287 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-16 09:13:29.7378 Info Configuration initialized.
+2024-02-16 09:18:54.6844 Info AppDomain Shutting down. LogFactory closing...
+2024-02-16 09:18:54.6929 Info LogFactory has been closed.
+2024-02-16 09:29:51.6140 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-16 09:29:51.6343 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-16 09:29:51.6662 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-16 09:29:51.6760 Info Configuration initialized.
+2024-02-16 09:46:53.2288 Info AppDomain Shutting down. LogFactory closing...
+2024-02-16 09:46:53.2373 Info LogFactory has been closed.
+2024-02-19 09:17:26.1277 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-19 09:17:26.1450 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-19 09:17:26.1695 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-19 09:17:26.1767 Info Configuration initialized.
+2024-02-19 09:17:26.9336 Info AppDomain Shutting down. LogFactory closing...
+2024-02-19 09:17:26.9366 Info LogFactory has been closed.
+2024-02-19 09:29:01.6943 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-19 09:29:01.7122 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-19 09:29:01.7386 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-19 09:29:01.7458 Info Configuration initialized.
+2024-02-19 09:29:02.8889 Info AppDomain Shutting down. LogFactory closing...
+2024-02-19 09:29:02.8919 Info LogFactory has been closed.
+2024-02-19 17:17:18.7357 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-19 17:17:18.7711 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-19 17:17:18.8300 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-19 17:17:18.8675 Info Configuration initialized.
+2024-02-19 17:31:12.7811 Info AppDomain Shutting down. LogFactory closing...
+2024-02-19 17:31:12.7871 Info LogFactory has been closed.
+2024-02-19 17:31:16.2541 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-19 17:31:16.2724 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-19 17:31:16.3014 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-19 17:31:16.3105 Info Configuration initialized.
+2024-02-19 17:42:46.4365 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-19 17:42:46.4726 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-19 17:42:46.5339 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-19 17:42:46.5560 Info Configuration initialized.
+2024-02-19 17:45:07.7795 Info AppDomain Shutting down. LogFactory closing...
+2024-02-19 17:45:07.7874 Info LogFactory has been closed.
+2024-02-19 17:47:53.7579 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-19 17:47:53.7749 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-19 17:47:53.8017 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-19 17:47:53.8088 Info Configuration initialized.
+2024-02-19 17:47:54.6448 Info AppDomain Shutting down. LogFactory closing...
+2024-02-19 17:47:54.6480 Info LogFactory has been closed.
+2024-02-19 17:48:04.5585 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-19 17:48:04.5744 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-19 17:48:04.6022 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-19 17:48:04.6094 Info Configuration initialized.
+2024-02-19 17:48:05.9599 Info AppDomain Shutting down. LogFactory closing...
+2024-02-19 17:48:05.9632 Info LogFactory has been closed.
+2024-02-19 17:48:13.3475 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-19 17:48:13.3660 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-19 17:48:13.3960 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-19 17:48:13.4054 Info Configuration initialized.
+2024-02-20 14:16:32.8633 Info AppDomain Shutting down. LogFactory closing...
+2024-02-20 14:16:32.8989 Info LogFactory has been closed.
+2024-02-21 09:02:16.6676 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-21 09:02:16.7299 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-21 09:02:16.8103 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-21 09:02:16.8382 Info Configuration initialized.
+2024-02-21 09:08:39.5909 Info AppDomain Shutting down. LogFactory closing...
+2024-02-21 09:08:39.5976 Info LogFactory has been closed.
+2024-02-21 09:08:43.9826 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-21 09:08:44.0103 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-21 09:08:44.0398 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-21 09:08:44.0498 Info Configuration initialized.
+2024-02-21 09:50:40.0927 Info AppDomain Shutting down. LogFactory closing...
+2024-02-21 09:50:40.1004 Info LogFactory has been closed.
+2024-02-21 09:57:12.8729 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-21 09:57:12.8919 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-21 09:57:12.9190 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-21 09:57:12.9298 Info Configuration initialized.
+2024-02-21 10:24:40.8153 Info AppDomain Shutting down. LogFactory closing...
+2024-02-21 10:24:40.8229 Info LogFactory has been closed.
+2024-02-21 14:49:35.0735 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-21 14:49:35.0970 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-21 14:49:35.1283 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-21 14:49:35.1356 Info Configuration initialized.
+2024-02-21 17:11:35.3972 Info AppDomain Shutting down. LogFactory closing...
+2024-02-21 17:11:35.4113 Info LogFactory has been closed.
+2024-02-21 17:11:39.0604 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-21 17:11:39.0786 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-21 17:11:39.1132 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-21 17:11:39.1224 Info Configuration initialized.
+2024-02-21 18:23:16.7706 Info AppDomain Shutting down. LogFactory closing...
+2024-02-21 18:23:16.8037 Info LogFactory has been closed.
+2024-02-22 15:01:02.3322 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-22 15:01:02.3988 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-22 15:01:02.4626 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-22 15:01:02.4801 Info Configuration initialized.
+2024-02-22 15:06:27.1089 Info AppDomain Shutting down. LogFactory closing...
+2024-02-22 15:06:27.1205 Info LogFactory has been closed.
+2024-02-22 17:14:52.0506 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-22 17:14:52.0649 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-22 17:14:52.0956 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-22 17:14:52.1016 Info Configuration initialized.
+2024-02-22 17:50:51.4575 Info AppDomain Shutting down. LogFactory closing...
+2024-02-22 17:50:51.4668 Info LogFactory has been closed.
+2024-02-23 08:52:31.5486 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 08:52:31.5698 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 08:52:31.5993 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 08:52:31.6090 Info Configuration initialized.
+2024-02-23 08:57:38.9700 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 08:57:38.9798 Info LogFactory has been closed.
+2024-02-23 08:57:42.1593 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 08:57:42.1787 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 08:57:42.2057 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 08:57:42.2148 Info Configuration initialized.
+2024-02-23 09:26:09.3437 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:26:09.3517 Info LogFactory has been closed.
+2024-02-23 09:28:24.9782 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:28:24.9952 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:28:25.0215 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:28:25.0289 Info Configuration initialized.
+2024-02-23 09:28:25.7640 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:28:25.7671 Info LogFactory has been closed.
+2024-02-23 09:29:07.6753 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:29:07.6926 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:29:07.7187 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:29:07.7262 Info Configuration initialized.
+2024-02-23 09:29:08.8463 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:29:08.8491 Info LogFactory has been closed.
+2024-02-23 09:29:42.0078 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:29:42.0279 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:29:42.0611 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:29:42.0705 Info Configuration initialized.
+2024-02-23 09:31:24.0360 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:31:24.0439 Info LogFactory has been closed.
+2024-02-23 09:32:32.8309 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:32:32.8514 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:32:32.8817 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:32:32.8930 Info Configuration initialized.
+2024-02-23 09:33:47.0299 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:33:47.0373 Info LogFactory has been closed.
+2024-02-23 09:34:31.2422 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:34:31.2601 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:34:31.2883 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:34:31.2956 Info Configuration initialized.
+2024-02-23 09:34:32.0501 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:34:32.0532 Info LogFactory has been closed.
+2024-02-23 09:34:41.2765 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:34:41.2928 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:34:41.3181 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:34:41.3261 Info Configuration initialized.
+2024-02-23 09:34:42.3003 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:34:42.3034 Info LogFactory has been closed.
+2024-02-23 09:34:46.3326 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:34:46.3511 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:34:46.3806 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:34:46.3896 Info Configuration initialized.
+2024-02-23 09:44:44.8264 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:44:44.8358 Info LogFactory has been closed.
+2024-02-23 09:45:11.2462 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:45:11.2623 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:45:11.2884 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:45:11.2956 Info Configuration initialized.
+2024-02-23 09:45:12.0725 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:45:12.0754 Info LogFactory has been closed.
+2024-02-23 09:45:39.7713 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:45:39.7890 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:45:39.8163 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:45:39.8234 Info Configuration initialized.
+2024-02-23 09:45:40.4254 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:45:40.4282 Info LogFactory has been closed.
+2024-02-23 09:45:52.5425 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:45:52.5586 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:45:52.5871 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:45:52.5943 Info Configuration initialized.
+2024-02-23 09:45:53.3338 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:45:53.3368 Info LogFactory has been closed.
+2024-02-23 09:55:36.6165 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:55:36.6341 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:55:36.6604 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:55:36.6675 Info Configuration initialized.
+2024-02-23 09:55:37.4022 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:55:37.4053 Info LogFactory has been closed.
+2024-02-23 09:56:34.4027 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:56:34.4199 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:56:34.4473 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:56:34.4546 Info Configuration initialized.
+2024-02-23 09:56:35.8760 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:56:35.8795 Info LogFactory has been closed.
+2024-02-23 09:56:53.9092 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:56:53.9252 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:56:53.9501 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:56:53.9572 Info Configuration initialized.
+2024-02-23 09:56:54.6740 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:56:54.6768 Info LogFactory has been closed.
+2024-02-23 09:57:05.2470 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 09:57:05.2637 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 09:57:05.2900 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 09:57:05.2971 Info Configuration initialized.
+2024-02-23 09:57:07.0796 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 09:57:07.0830 Info LogFactory has been closed.
+2024-02-23 10:29:01.0016 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 10:29:01.0181 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 10:29:01.0450 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 10:29:01.0522 Info Configuration initialized.
+2024-02-23 10:29:01.8406 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 10:29:01.8436 Info LogFactory has been closed.
+2024-02-23 10:29:13.7789 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 10:29:13.7948 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 10:29:13.8214 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 10:29:13.8288 Info Configuration initialized.
+2024-02-23 10:29:14.7880 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 10:29:14.7915 Info LogFactory has been closed.
+2024-02-23 10:29:23.5314 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 10:29:23.5472 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 10:29:23.5736 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 10:29:23.5808 Info Configuration initialized.
+2024-02-23 10:29:25.1948 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 10:29:25.1990 Info LogFactory has been closed.
+2024-02-23 10:29:32.6861 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 10:29:32.7057 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 10:29:32.7336 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 10:29:32.7427 Info Configuration initialized.
+2024-02-23 10:31:30.4961 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 10:31:30.5022 Info LogFactory has been closed.
+2024-02-23 10:31:34.8346 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-02-23 10:31:34.8533 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2024-02-23 10:31:34.8842 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=/Users/halis/RiderProjects/AREMSUPPORTDESK/AREMSUPPORTDESK/NLog.config
+2024-02-23 10:31:34.8958 Info Configuration initialized.
+2024-02-23 11:07:07.0315 Info AppDomain Shutting down. LogFactory closing...
+2024-02-23 11:07:07.0391 Info LogFactory has been closed.

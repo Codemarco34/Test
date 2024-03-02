@@ -1,0 +1,411 @@
+2024-02-15 14:40:27.8259 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T11:40:27.806992Z"}
+2024-02-15 14:40:29.4745 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+PagedList`1 -> IEnumerable`1
+Entities.RequestFeatures.PagedList`1[[Entities.Models.Ticket, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTOs.TicketDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method53(Closure, Ticket, TicketDto, ResolutionContext)
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.TicketManager.GetAllTicketAsync(TicketParameters ticketParameters, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 27
+   at Presentation.Controllers.TicketController.GetAllTicket(TicketParameters ticketParameters) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Controllers/TicketController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 14:41:00.8495 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T11:41:00.848046Z"}
+2024-02-15 14:41:00.9159 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+PagedList`1 -> IEnumerable`1
+Entities.RequestFeatures.PagedList`1[[Entities.Models.Ticket, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTOs.TicketDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method53(Closure, Ticket, TicketDto, ResolutionContext)
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.TicketManager.GetAllTicketAsync(TicketParameters ticketParameters, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 27
+   at Presentation.Controllers.TicketController.GetAllTicket(TicketParameters ticketParameters) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Controllers/TicketController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 14:41:08.9316 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetOneTicket","Id":"1","CreateAt":"2024-02-15T11:41:08.931592Z"}
+2024-02-15 14:41:09.0694 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method65(Closure, Object, TicketDto, ResolutionContext)
+   at Services.TicketManager.GetOneTicketByIdAsync(Int32 id, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 34
+   at Presentation.Controllers.TicketController.GetOneTicket(Int32 id) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Controllers/TicketController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 14:41:32.7866 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T11:41:32.786339Z"}
+2024-02-15 14:41:32.8108 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+PagedList`1 -> IEnumerable`1
+Entities.RequestFeatures.PagedList`1[[Entities.Models.Ticket, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTOs.TicketDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method53(Closure, Ticket, TicketDto, ResolutionContext)
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.TicketManager.GetAllTicketAsync(TicketParameters ticketParameters, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 27
+   at Presentation.Controllers.TicketController.GetAllTicket(TicketParameters ticketParameters) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Controllers/TicketController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 14:41:36.6855 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T11:41:36.685428Z"}
+2024-02-15 14:41:36.6988 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+PagedList`1 -> IEnumerable`1
+Entities.RequestFeatures.PagedList`1[[Entities.Models.Ticket, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTOs.TicketDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method53(Closure, Ticket, TicketDto, ResolutionContext)
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.TicketManager.GetAllTicketAsync(TicketParameters ticketParameters, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 27
+   at Presentation.Controllers.TicketController.GetAllTicket(TicketParameters ticketParameters) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Controllers/TicketController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 14:41:41.2916 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T11:41:41.291522Z"}
+2024-02-15 14:41:46.4229 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T11:41:46.422892Z"}
+2024-02-15 14:41:46.4556 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+PagedList`1 -> IEnumerable`1
+Entities.RequestFeatures.PagedList`1[[Entities.Models.Ticket, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTOs.TicketDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method53(Closure, Ticket, TicketDto, ResolutionContext)
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.TicketManager.GetAllTicketAsync(TicketParameters ticketParameters, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 27
+   at Presentation.Controllers.TicketController.GetAllTicket(TicketParameters ticketParameters) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Controllers/TicketController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 14:42:15.6044 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T11:42:15.60355Z"}
+2024-02-15 14:42:15.6338 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+PagedList`1 -> IEnumerable`1
+Entities.RequestFeatures.PagedList`1[[Entities.Models.Ticket, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTOs.TicketDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method53(Closure, Ticket, TicketDto, ResolutionContext)
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.TicketManager.GetAllTicketAsync(TicketParameters ticketParameters, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 27
+   at Presentation.Controllers.TicketController.GetAllTicket(TicketParameters ticketParameters) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Controllers/TicketController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 14:45:42.3866 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomer","Id":null,"CreateAt":"2024-02-15T11:45:42.386205Z"}
+2024-02-15 14:45:47.5871 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomer","Id":null,"CreateAt":"2024-02-15T11:45:47.587085Z"}
+2024-02-15 14:45:57.9864 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomer","Id":null,"CreateAt":"2024-02-15T11:45:57.98634Z"}
+2024-02-15 14:46:05.4631 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomer","Id":null,"CreateAt":"2024-02-15T11:46:05.463073Z"}
+2024-02-15 14:46:20.7439 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T11:46:20.743804Z"}
+2024-02-15 14:46:20.7606 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+PagedList`1 -> IEnumerable`1
+Entities.RequestFeatures.PagedList`1[[Entities.Models.Ticket, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTOs.TicketDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method53(Closure, Ticket, TicketDto, ResolutionContext)
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.TicketManager.GetAllTicketAsync(TicketParameters ticketParameters, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 27
+   at Presentation.Controllers.TicketController.GetAllTicket(TicketParameters ticketParameters) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Controllers/TicketController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 14:53:45.2897 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomer","Id":null,"CreateAt":"2024-02-15T11:53:45.2892Z"}
+2024-02-15 14:56:02.6043 INFO {"ModelName":"OnActionExecuting","Controller":"Maintenance","Action":"GelAllMaintenance","Id":null,"CreateAt":"2024-02-15T11:56:02.603192Z"}
+2024-02-15 14:56:06.9479 INFO {"ModelName":"OnActionExecuting","Controller":"Maintenance","Action":"GelAllMaintenance","Id":null,"CreateAt":"2024-02-15T11:56:06.947773Z"}
+2024-02-15 14:56:16.9670 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T11:56:16.966977Z"}
+2024-02-15 14:56:16.9806 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+PagedList`1 -> IEnumerable`1
+Entities.RequestFeatures.PagedList`1[[Entities.Models.Ticket, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTOs.TicketDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method53(Closure, Ticket, TicketDto, ResolutionContext)
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.TicketManager.GetAllTicketAsync(TicketParameters ticketParameters, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 27
+   at Presentation.Controllers.TicketController.GetAllTicket(TicketParameters ticketParameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 15:16:12.3366 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T12:16:12.325802Z"}
+2024-02-15 15:16:13.3306 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+PagedList`1 -> IEnumerable`1
+Entities.RequestFeatures.PagedList`1[[Entities.Models.Ticket, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTOs.TicketDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method53(Closure, Ticket, TicketDto, ResolutionContext)
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.TicketManager.GetAllTicketAsync(TicketParameters ticketParameters, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 27
+   at Presentation.Controllers.TicketController.GetAllTicket(TicketParameters ticketParameters) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Controllers/TicketController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 15:24:28.7103 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomer","Id":null,"CreateAt":"2024-02-15T12:24:28.700013Z"}
+2024-02-15 15:24:37.0824 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T12:24:37.082198Z"}
+2024-02-15 15:24:37.1665 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+PagedList`1 -> IEnumerable`1
+Entities.RequestFeatures.PagedList`1[[Entities.Models.Ticket, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTOs.TicketDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method84(Closure, Ticket, TicketDto, ResolutionContext)
+   at lambda_method83(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method83(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.TicketManager.GetAllTicketAsync(TicketParameters ticketParameters, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 27
+   at Presentation.Controllers.TicketController.GetAllTicket(TicketParameters ticketParameters) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Controllers/TicketController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 15:25:24.8790 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T12:25:24.867915Z"}
+2024-02-15 15:25:25.8464 ERROR Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+PagedList`1 -> IEnumerable`1
+Entities.RequestFeatures.PagedList`1[[Entities.Models.Ticket, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Entities.DTOs.TicketDto, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Ticket -> TicketDto
+Entities.Models.Ticket -> Entities.DTOs.TicketDto
+   at lambda_method53(Closure, Ticket, TicketDto, ResolutionContext)
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method52(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Services.TicketManager.GetAllTicketAsync(TicketParameters ticketParameters, Boolean trackChanges) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Services/TicketManager.cs:line 27
+   at Presentation.Controllers.TicketController.GetAllTicket(TicketParameters ticketParameters) in /Users/halis/RiderProjects/AREMSUPPORTDESK/Presentation/Controllers/TicketController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|8_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-02-15 15:39:21.2495 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T12:39:21.238034Z"}
+2024-02-15 15:43:05.5815 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomer","Id":null,"CreateAt":"2024-02-15T12:43:05.580186Z"}
+2024-02-15 15:43:10.6439 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomer","Id":null,"CreateAt":"2024-02-15T12:43:10.643852Z"}
+2024-02-15 15:43:15.0662 INFO {"ModelName":"OnActionExecuting","Controller":"Customer","Action":"GetAllCustomer","Id":null,"CreateAt":"2024-02-15T12:43:15.066204Z"}
+2024-02-15 15:44:01.3965 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T12:44:01.395918Z"}
+2024-02-15 15:44:14.1512 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T12:44:14.151152Z"}
+2024-02-15 15:44:18.6287 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T12:44:18.628696Z"}
+2024-02-15 15:44:22.9537 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T12:44:22.953596Z"}
+2024-02-15 15:44:26.9304 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T12:44:26.930389Z"}
+2024-02-15 15:47:44.4292 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T12:47:44.428644Z"}
+2024-02-15 15:50:02.6946 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T12:50:02.694222Z"}
+2024-02-15 15:51:44.0627 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T12:51:44.059689Z"}
+2024-02-15 15:52:05.4342 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T12:52:05.421668Z"}
+2024-02-15 15:53:25.5271 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T12:53:25.526743Z"}
+2024-02-15 15:54:37.0118 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T12:54:36.999939Z"}
+2024-02-15 15:55:10.2748 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T12:55:10.274646Z"}
+2024-02-15 15:57:31.8069 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T12:57:31.803836Z"}
+2024-02-15 15:58:36.9376 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T12:58:36.937311Z"}
+2024-02-15 16:16:04.8548 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T13:16:04.842937Z"}
+2024-02-15 16:16:37.6293 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T13:16:37.629215Z"}
+2024-02-15 16:18:25.9009 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T13:18:25.900525Z"}
+2024-02-15 16:23:45.8577 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"GetAllTicket","Id":null,"CreateAt":"2024-02-15T13:23:45.847666Z"}
+2024-02-15 16:24:39.0329 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T13:24:39.032609Z"}
+2024-02-15 16:25:07.9182 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T13:25:07.91785Z"}
+2024-02-15 16:25:33.1065 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T13:25:33.106421Z"}
+2024-02-15 16:26:20.0723 INFO {"ModelName":"OnActionExecuting","Controller":"Ticket","Action":"CreateOneTicket","Id":null,"CreateAt":"2024-02-15T13:26:20.071304Z"}

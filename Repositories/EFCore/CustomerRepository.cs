@@ -1,4 +1,6 @@
 using Entities.Models;
+using Entities.RequestFeatures;
+using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
 
 namespace Repositories.EFCore;
@@ -9,12 +11,22 @@ public class CustomerRepository : RepositoryBase<Customer> , ICustomerRepository
     {
     }
 
-    public IQueryable<Customer> GetAllCustomers(bool trackChanges) => 
-        FindAll(trackChanges).OrderBy(c=> c.Id);
+    public async Task<PagedList<Customer>> GetAllCustomersAsync(CustomerParameters customerParameters,
+        bool trackChanges)
+    {
+        var customer = await FindAll(trackChanges)
+            .OrderBy(c => c.Id)
+            .ToListAsync();
+        return PagedList<Customer>
+            .ToPagedList(customer, customerParameters.PageNumber, customerParameters.PageSize);
+
+    }
+        
 
 
-    public Customer GetOneCustomerById(int id, bool trackChanges) =>
-        FindByCondition(c => c.Id.Equals(id), trackChanges).SingleOrDefault();
+    public async Task<Customer> GetOneCustomerByIdAsync(int id, bool trackChanges) =>
+        await FindByCondition(c => c.Id.Equals(id), trackChanges)
+            .SingleOrDefaultAsync();
     
 
     public void CreateOneCustomer(Customer customer) => Create(customer);

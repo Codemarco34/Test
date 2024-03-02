@@ -1,7 +1,7 @@
 using AutoMapper;
 using Entities.DTOs;
-using Entities.Exceptions;
 using Entities.Models;
+using Entities.RequestFeatures;
 using Repositories.Contracts;
 using Services.Contracts;
 
@@ -21,59 +21,68 @@ public class CustomerManager : ICustomerService
     }
     
 
-    public IEnumerable<CustomerDto> GetAllCustomer(bool trackChanges)
+    public async Task<(IEnumerable<CustomerDto> customer, MetaData metaData)>  GetAllCustomerAsync(CustomerParameters customerParameters,bool trackChanges)
     {
-       var customer = _manager.Customer.GetAllCustomers(trackChanges);
-       return _mapper.Map<IEnumerable<CustomerDto>>(customer);
+       var customerwithMetadata = await _manager
+           .Customer
+           .GetAllCustomersAsync(customerParameters,trackChanges);
+       var customersdto= _mapper.Map<IEnumerable<CustomerDto>>(customerwithMetadata);
+       return (customersdto, customerwithMetadata.MetaData);
     }
 
-    public Customer GetOneCustomerById(int id, bool trackChanges)
+    public async Task<CustomerDto> GetOneCustomerByIdAsync(int id, bool trackChanges)
     {
-        var customer =  _manager.Customer.GetOneCustomerById(id, trackChanges);
-        if (customer is null)
-            throw new CustomerNotFoundException(id);
-        return customer;
+        var customer = await GetOneCustomerByIdCheckExists(id, trackChanges);
+        return _mapper.Map<CustomerDto>(customer);
     }
 
-    public Customer CreateOneCustomer(Customer customer)
+    public async Task<CustomerDto> CreateOneCustomerAsync(CustomerDtoForInsertion customerDto)
     {
-        
-        
-        if (customer is null)
-        {
-            string msg = "Customer is null";
-            _logger.LogError(msg);
-            throw new ArgumentNullException(nameof(customer));
-        }
-        string CreateMessage = $"Customer with id {customer.Id} is created";
-        _logger.LogInfo(CreateMessage);
-        _manager.Customer.CreateOneCustomer(customer);
-        _manager.Save();
-        return customer;
+        var entity = _mapper.Map<Customer>(customerDto);
+        _manager.Customer.CreateOneCustomer(entity);
+        await _manager.SaveAsync();
+        return _mapper.Map<CustomerDto>(entity);
         
     }
     
 
-    public void UpdateOneCustomer(int id, CustomerDto customerDto, bool trackChanges)
+    public async Task UpdateOneCustomerAsync(int id, CustomerDto customerDto, bool trackChanges)
     {
-        var entity = _manager.Customer.GetOneCustomerById(id, trackChanges);
-        if (entity is null)
-            throw new CustomerNotFoundException(id);
+        var entity = await GetOneCustomerByIdCheckExists(id, trackChanges);
 
         entity = _mapper.Map<Customer>(customerDto);
         _manager.Customer.Update(entity);
-        _manager.Save();
+        await _manager.SaveAsync();
     }
     
 
-    public void DeleteOneCustomer(int id, bool trackChanges)
+    public async Task DeleteOneCustomerAsync (int id, bool trackChanges)
     {
-        var entity = _manager.Customer.GetOneCustomerById(id, trackChanges);
-        if (entity is null)
-            throw new CustomerNotFoundException(id);
-            
+
+        var entity = await GetOneCustomerByIdCheckExists(id, trackChanges);
         _manager.Customer.DeleteOneCustomer(entity);
-        _manager.Save();
+        await _manager.SaveAsync();
 
     }
+
+    public async Task<(CustomerDto customerDto, Customer customer)> GetOneCustomerForPatchAsync (int id, bool trackChanges)
+    {
+        var customer = await GetOneCustomerByIdCheckExists(id,trackChanges);
+        var CustomerDtoForUpdate = _mapper.Map<CustomerDto>(customer);
+        return (CustomerDtoForUpdate, customer);
+    }
+
+    public async Task SaveChangesForPatchAsync (CustomerDto customerDto, Customer customer)
+    {
+        _mapper.Map(customerDto, customer);
+        await _manager.SaveAsync();
+    }
+
+
+    private async Task<Customer> GetOneCustomerByIdCheckExists(int id, bool trackChanges)
+    {
+        var entity = await _manager.Customer.GetOneCustomerByIdAsync (id, trackChanges);
+        return entity;
+    }
+    
 }

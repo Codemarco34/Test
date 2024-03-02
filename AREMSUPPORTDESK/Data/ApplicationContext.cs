@@ -1,4 +1,5 @@
 using System.Runtime.InteropServices.JavaScript;
+using Entities.DTOs;
 using Entities.Models;
 
 namespace AREMSUPPORTDESK.Data;
@@ -7,6 +8,9 @@ public static class ApplicationContext
 {
     public static List<Customer> Customers { get; }
     public static List<Maintenance> Maintenances { get; }
+    public static List<TicketDto> Tickets { get; }
+    public static List<ResponseDto> Responses { get; }
+    public static List<UserDto> Users { get; }
     static ApplicationContext()
     {
         Customers = new List<Customer>()
@@ -75,8 +79,41 @@ public static class ApplicationContext
             }
 
         };
+        Tickets = new List<TicketDto>()
+        {
+            new TicketDto()
+            {
+                Id = 1,
+                UserId = 1,
+                Subject = "Arem Destek",
+                CreationDate = DateTime.Now,
+                Description = "Test",
+                Responses = new List<ResponseDto>
+                {
+                    new ResponseDto()
+                    {
+                        Content = "Cevap 1",
+                        CreationDate = DateTime.Now,
+                        UserId = 2,
+                        User = new UserDto()
+                        {
+                            UserName = "CevapVerenKullanici"
+                        }
+                    },
+                    // Diğer cevaplar
+                }
+            },
+            // Diğer ticket'lar
+        };
 
+        Users = new List<UserDto>()
+        {
+            new UserDto()
+            {
+                Id = 1,
+                UserName = "Halis",
+            },
+            // Diğer kullanıcılar
+        };
     }
-    
-    
 }

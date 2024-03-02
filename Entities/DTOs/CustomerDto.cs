@@ -2,8 +2,8 @@
 
 namespace Entities.DTOs;
 
-public record CustomerDto
-{
+public record CustomerDto : CustomerDtoForManipulation
+{ 
     public int Id { get; set; }
 public string CustomerCode { get; set; }
 public string  Title { get; set; }

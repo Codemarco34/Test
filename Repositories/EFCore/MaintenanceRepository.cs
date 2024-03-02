@@ -1,4 +1,6 @@
 using Entities.Models;
+using Entities.RequestFeatures;
+using Microsoft.EntityFrameworkCore;
 using Repositories.Contracts;
 
 namespace Repositories.EFCore;
@@ -9,11 +11,23 @@ public class MaintenanceRepository : RepositoryBase<Maintenance> , IMaintenanceR
     {
     }
 
-    public IQueryable<Maintenance> GetAllMaintenance(bool trackChanges) =>
-        FindAll(trackChanges).OrderBy(m => m.Id);
+    public async Task<PagedList<Maintenance>> GetAllMaintenanceAsync(MaintenanceParameters maintenanceParameters,
+        bool trackChanges)
+    {
+        var maintenance = await FindAll(trackChanges)
+            .OrderBy(m => m.Id)
+            .ToListAsync();
+        return PagedList<Maintenance>
+            .ToPagedList(maintenance, maintenanceParameters.PageNumber, maintenanceParameters.PageSize);
 
-    public Maintenance GetOneMaintenanceById(int id, bool trackChanges) =>
-        FindByCondition(m => m.Id.Equals(id), trackChanges).SingleOrDefault();
+    }
+        
+
+
+
+    public async  Task<Maintenance> GetOneMaintenanceByIdAsync (int id, bool trackChanges) =>
+       await  FindByCondition(m => m.Id.Equals(id), trackChanges).
+            SingleOrDefaultAsync();
 
 
     public void CreateOneMaintenance(Maintenance maintenance) => Create(maintenance);

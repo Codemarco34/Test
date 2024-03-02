@@ -1,14 +1,16 @@
 using Entities.DTOs;
 using Entities.Models;
+using Entities.RequestFeatures;
 
 namespace Services.Contracts;
 
 public interface IMaintenanceService
 {
-    IEnumerable<Maintenance> GetAllMaintenance(bool trackChanges);
-    Maintenance GetMaintenanceById(int id, bool trackChanges);
-    Maintenance CreateOneMaintenance(Maintenance maintenance);
-    void UpdateOneMaintenance(int id,MaintenanceDto maintenanceDto ,bool trackChanges);
-    void DeleteOneMaintenance(int id, bool trackChanges);
-
+    Task<(IEnumerable<MaintenanceDto> maintenances, MetaData metaData)> GetAllMaintenanceAsync (MaintenanceParameters maintenanceParameters,bool trackChanges);
+    Task<MaintenanceDto> GetMaintenanceByIdAsync (int id, bool trackChanges);
+    Task<MaintenanceDto> CreateOneMaintenanceAsync (MaintenanceDtoForInsertion maintenance);
+    Task UpdateOneMaintenanceAsync (int id,MaintenanceDto maintenanceDto ,bool trackChanges);
+    Task  DeleteOneMaintenanceAsync (int id, bool trackChanges);
+    Task<(MaintenanceDto maintenanceDto, Maintenance maintenance)> GetOneMaintenanceForPatchAsync (int id, bool trackChanges);
+    Task SaveChangesForPatchAsync (MaintenanceDto maintenanceDto, Maintenance maintenance);
 }

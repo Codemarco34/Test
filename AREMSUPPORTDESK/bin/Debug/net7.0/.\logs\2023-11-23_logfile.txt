@@ -1,9 +1,0 @@
-2023-11-23 15:48:24.3955 INFO Customer with id 1000 could not found
-2023-11-23 15:52:25.0071 INFO The book with id :1000 could not found
-2023-11-23 15:58:15.3031 INFO The book with id :10000 could not found
-2023-11-23 16:07:14.2799 INFO Customer with id 222 could not found
-2023-11-23 16:24:26.0341 INFO The book with id :1000 could not found
-2023-11-23 16:39:42.3867 INFO The book with id :10000 could not found
-2023-11-23 16:40:14.7591 INFO The book with id :10000 could not found
-2023-11-23 16:40:21.1861 INFO Customer with id 10000 could not found
-2023-11-23 16:41:24.1226 INFO Customer with id 10000 could not found

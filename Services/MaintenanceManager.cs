@@ -2,6 +2,7 @@ using AutoMapper;
 using Entities.DTOs;
 using Entities.Exceptions;
 using Entities.Models;
+using Entities.RequestFeatures;
 using NLog;
 using Repositories.Contracts;
 using Services.Contracts;
@@ -21,50 +22,67 @@ public class MaintenanceManager : IMaintenanceService
         _mapper = mapper;
     }
 
-    public IEnumerable<Maintenance> GetAllMaintenance(bool trackChanges)
+    public async Task<(IEnumerable<MaintenanceDto> maintenances, MetaData metaData)> GetAllMaintenanceAsync (MaintenanceParameters maintenanceParameters,bool trackChanges)
     {
-        return _manager.Maintenance.GetAllMaintenance(trackChanges);
+        var maintenancewithMetadata = await _manager
+            .Maintenance
+            .GetAllMaintenanceAsync(maintenanceParameters,trackChanges);
+         var maintenancesDto = _mapper.Map<IEnumerable<MaintenanceDto>>(maintenancewithMetadata);
+         return (maintenancesDto, maintenancewithMetadata.MetaData);
     }
 
-    public Maintenance GetMaintenanceById(int id, bool trackChanges)
+    public async Task<MaintenanceDto> GetMaintenanceByIdAsync(int id, bool trackChanges)
     {
-        var maintenance =  _manager.Maintenance.GetOneMaintenanceById(id, trackChanges);
+        var maintenance = await  _manager.Maintenance.GetOneMaintenanceByIdAsync(id, trackChanges);
         if (maintenance is null)
             throw new MaintenanceNotFoundException(id);
-        return maintenance;
+        return _mapper.Map<MaintenanceDto>(maintenance);
     }
 
-    public Maintenance CreateOneMaintenance(Maintenance maintenance)
+    public async Task<MaintenanceDto> CreateOneMaintenanceAsync (MaintenanceDtoForInsertion maintenanceDto)
     {
-
-        string msg = "Maintenance Created";
-        _logger.LogInfo(msg);
-        _manager.Maintenance.CreateOneMaintenance(maintenance);
-        _manager.Save();
-        return maintenance;
+        // string msg = "Maintenance Created";
+        // _logger.LogInfo(msg);
+        var entity = _mapper.Map<Maintenance>(maintenanceDto);
+        _manager.Maintenance.CreateOneMaintenance(entity);
+        await _manager.SaveAsync();
+        return _mapper.Map<MaintenanceDto>(entity);
     }
 
-    public void UpdateOneMaintenance(int id, MaintenanceDto maintenanceDto, bool trackChanges)
+    public async Task UpdateOneMaintenanceAsync (int id, MaintenanceDto maintenanceDto, bool trackChanges)
     {
-        var entity = _manager.Maintenance.GetOneMaintenanceById(id, trackChanges);
+        var entity = await _manager.Maintenance.GetOneMaintenanceByIdAsync(id, trackChanges);
         if (entity is null)
             throw new MaintenanceNotFoundException(id);
 
         entity = _mapper.Map<Maintenance>(maintenanceDto);
         _manager.Maintenance.Update(entity);
-        _manager.Save();
+        await _manager.SaveAsync();
     }
 
-    
-
-    public void DeleteOneMaintenance(int id, bool trackChanges)
+    public async Task DeleteOneMaintenanceAsync (int id, bool trackChanges)
     {
-        var entity = _manager.Maintenance.GetOneMaintenanceById(id, trackChanges);
+        var entity = await _manager.Maintenance.GetOneMaintenanceByIdAsync(id, trackChanges);
         if (entity is null)
             throw new MaintenanceNotFoundException(id);
             
         _manager.Maintenance.DeleteOneMaintenance(entity);
-        _manager.Save();
+        await _manager.SaveAsync();
 
+    }
+
+    public async Task<(MaintenanceDto maintenanceDto, Maintenance maintenance)> GetOneMaintenanceForPatchAsync (int id, bool trackChanges)
+    {
+        var maintenance = await _manager.Maintenance.GetOneMaintenanceByIdAsync(id, trackChanges);
+        if (maintenance is null)
+            throw new MaintenanceNotFoundException(id);
+        var MaintenanceDtoForUpdate = _mapper.Map<MaintenanceDto>(maintenance);
+        return (MaintenanceDtoForUpdate, maintenance);
+    }
+
+    public async Task SaveChangesForPatchAsync (MaintenanceDto maintenanceDto, Maintenance maintenance)
+    {
+        _mapper.Map(maintenanceDto, maintenance);
+        await _manager.SaveAsync();
     }
 }
